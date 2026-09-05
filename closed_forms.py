@@ -1,6 +1,6 @@
 """Closed-form option pricing formulas used as reference benchmarks.
 
-This module contains the Black-Scholes and Kim-Madison-Vasicek formulas used to
+This module contains the Black-Scholes and Kemna-Vorst formulas used to
 validate Monte Carlo estimates against analytic prices.
 """
 
