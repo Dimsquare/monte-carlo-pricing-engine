@@ -55,7 +55,7 @@ Unless noted, the test contract is $S_0 = 100$, $K = 100$, $r = 5\%$, $\sigma = 
 
 ![Convergence to Black-Scholes](assets/convergence.png)
 
-The left panel shows the estimates converging on the closed form with shrinking error bars. All the estimates scatter around the Black-Scholes value with the error bars shrinking as n grows which agrees with the theory. The error bars are ±3SE(~99.7% coverage), and as shown, all 9 bars contain the BS line as expected.
+The left panel shows the estimates converging on the closed form with shrinking error bars. All the estimates scatter around the Black-Scholes value with the error bars shrinking as n grows which agrees with the theory. The error bars are ±2SE(~95% coverage), and as shown, all 9 bars contain the BS line as expected.
 
 The right panel shows the error on log-log axes with a fitted slope of **−0.497**, against the theoretical −1/2 from the Standard Error formula. The observed error is noisier than the reported SE because the observed error is a single realization of a random quantity whose usual size is the SE. Hence, producing noise around the smooth SE line whereas the SE curve is stable because it's estimated from the full sample at each n.
 
